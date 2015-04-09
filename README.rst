@@ -1,17 +1,38 @@
-Palmvein Recogtion based on Bob
-=================================
+.. vim: set fileencoding=utf-8 :
+.. Pedro Tome <pedro.tome@idiap.ch>
+.. Thu Jan 15 12:51:09 CEST 2015
+
+.. image:: http://img.shields.io/badge/docs-stable-yellow.png
+   :target: http://pythonhosted.org/bob.palmvein/index.html
+.. image:: http://img.shields.io/badge/docs-latest-orange.png
+   :target: https://www.idiap.ch/software/bob/docs/latest/bioidiap/bob.palmvein/master/index.html
+.. image:: https://travis-ci.org/bioidiap/bob.palmvein.svg?branch=master
+   :target: https://travis-ci.org/bioidiap/bob.palmvein
+.. image:: https://coveralls.io/repos/bioidiap/bob.palmvein/badge.png
+   :target: https://coveralls.io/r/bioidiap/bob.palmvein
+.. image:: https://img.shields.io/badge/github-master-0000c0.png
+   :target: https://github.com/bioidiap/bob.palmvein/tree/master
+.. image:: http://img.shields.io/pypi/v/bob.palmvein.png
+   :target: https://pypi.python.org/pypi/bob.palmvein
+.. image:: http://img.shields.io/pypi/dm/bob.palmvein.png
+   :target: https://pypi.python.org/pypi/bob.palmvein
+
+
+===================================
+ The Palmvein Recognition Library
+===================================
 
 Welcome to the Palm vein Recognition Library based on Bob.
 This library is designed to perform a fair comparison of palm vein recognition algorithms.
 It contains scripts to execute various kinds of palm vein recognition experiments on a variety of palm vein image databases, and running the help is as easy as going to the command line and typing::
 
-  $ bin/faceverify.py --help
+  $ bin/palmveinverify.py --help
 
 
 About
 -----
 
-This library is developed at the `Biometrics group <http://www.idiap.ch/~marcel/professional/Research_Team.html>`_ at the `Idiap Research Institute <http://www.idiap.ch>`_.
+This library is developed at the `Biometrics group <http://www.idiap.ch/scientific-research/research-groups/biometric-person-recognition>`_ at the `Idiap Research Institute <http://www.idiap.ch>`_.
 The PalmVeinRecLib is designed to run palm vein recognition experiments in a comparable and reproducible manner.
 
 .. note::
@@ -72,8 +93,8 @@ To verify that your installation worked as expected, you might want to run our t
 
   $ bin/nosetests
 
-Usually, all tests should pass, if you use Bob_ in version 1.2.1.
-With other versions of Bob_, you might find some failing tests.
+Usually, all tests should pass, if you use the latest packages of Bob_.
+With other versions of Bob_, you might find some failing tests, or some errors might occur.
 
 
 Cite our paper
@@ -81,21 +102,16 @@ Cite our paper
 
 If you use the PalmVeinRecLib in any of your experiments, please cite the following paper::
 
-  @inproceedings{author_ConferenceYear,
-         author = {Authors},
-         editor = {},
-       keywords = {},
-          month = oct,
-          title = {Title},
-      booktitle = {Conference},
-         series = {},
-         volume = {},
-           year = {},
-          pages = {},
-      publisher = {},
-       location = {},
-            url = {}
-  }
+  @inproceedings{Tome_ICB2015-SpoofingPalmvein,
+         author = {Tome, Pedro and Marcel, S{\'{e}}bastien},
+       projects = {Idiap, BEAT, TABULA RASA},
+          month = may,
+          title = {On the Vulnerability of Palm Vein Recognition to Spoofing Attacks},
+      booktitle = {The 8th IAPR International Conference on Biometrics (ICB)},
+           year = {2015},
+            pdf = {http://publications.idiap.ch/downloads/papers/2015/Tome_ICB2015-SpoofingPalmvein.pdf}
+}
+
 
 
 .. _bob: http://www.idiap.ch/software/bob
