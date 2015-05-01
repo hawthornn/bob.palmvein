@@ -109,7 +109,7 @@ setup(
 
       # registered feature extractors
       'facereclib.feature_extractor': [
-        'lbp-linearbinarypatterns   = bob.palmvein.configurations.features.lbp:feature_extractor',
+        'lbp-localbinarypatterns   = bob.palmvein.configurations.features.lbp:feature_extractor',
         
       ],
 
