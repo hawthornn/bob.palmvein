@@ -3,7 +3,7 @@
 # Pedro Tome <pedro.tome@idiap.ch>
 # Tue 25 Mar 18:18:08 2014 CEST
 #
-# Copyright (C) 2011-2014 Idiap Research Institute, Martigny, Switzerland
+# Copyright (C) 2015 Idiap Research Institute, Martigny, Switzerland
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

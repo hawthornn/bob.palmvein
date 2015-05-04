@@ -2,7 +2,7 @@
 # vim: set fileencoding=utf-8 :
 # Pedro Tome <Pedro.Tome@idiap.ch>
 #
-# Copyright (C) 2014 Idiap Research Institute, Martigny, Switzerland
+# Copyright (C) 2015 Idiap Research Institute, Martigny, Switzerland
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
