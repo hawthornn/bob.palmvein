@@ -37,7 +37,7 @@ The PalmVeinRecLib is designed to run palm vein recognition experiments in a com
 
 .. note::
   When you are working at Idiap_, you might get a version of the PalmVeinRecLib, where all paths are set up such that you can directly start running experiments.
-  Outside Idiap_, you need to set up the paths to point to your databases, please check `Read Further`_ on how to do that.
+  Outside Idiap_, you need to set up the paths to point to your databases, please check the documentation on how to do that.
 
 Databases
 .........
@@ -70,7 +70,7 @@ Installation
 
 To download the PalmVeinRecLib, please go to http://pypi.python.org/pypi/palmveinreclib, click on the **download** button and extract the .zip file to a folder of your choice.
 
-The PalmVeinRecLib is a satellite package of the free signal processing and machine learning library Bob_, and some of its algorithms rely on the `CSU Face Recognition Resources`_.
+The PalmVeinRecLib is a satellite package of the free signal processing and machine learning library Bob_.
 These two dependencies have to be downloaded manually, as explained in the following.
 
 Bob
@@ -110,7 +110,7 @@ If you use the PalmVeinRecLib in any of your experiments, please cite the follow
       booktitle = {The 8th IAPR International Conference on Biometrics (ICB)},
            year = {2015},
             pdf = {http://publications.idiap.ch/downloads/papers/2015/Tome_ICB2015-SpoofingPalmvein.pdf}
-}
+            }
 
 
 
