@@ -68,7 +68,7 @@ References
 Installation
 ------------
 
-To download the PalmVeinRecLib, please go to http://pypi.python.org/pypi/palmveinreclib, click on the **download** button and extract the .zip file to a folder of your choice.
+To download the PalmVeinRecLib, please go to http://pypi.python.org/pypi/bob.palmvein, click on the **download** button and extract the .zip file to a folder of your choice.
 
 The PalmVeinRecLib is a satellite package of the free signal processing and machine learning library Bob_.
 These two dependencies have to be downloaded manually, as explained in the following.
@@ -76,11 +76,11 @@ These two dependencies have to be downloaded manually, as explained in the follo
 Bob
 ...
 
-You will need a copy of Bob in version 1.2.0 or newer to run the algorithms.
+You will need a copy of Bob in version 2.0 or newer to run the algorithms.
 Please download Bob_ from its webpage.
 After downloading, you should go to the console and write::
 
-  $ python bootstrap.py
+  $ python bootstrap-buildout.py
   $ bin/buildout
 
 This will download all required packages and install them locally.
